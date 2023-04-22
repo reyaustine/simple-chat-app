@@ -5,7 +5,6 @@
    align-items: center;
    justify-content: center;
    color: #fff;
-
    .form-wrapper{
     color: #000;
     background-color: #fff;
@@ -20,19 +19,15 @@
         font-weight: bold;
         font-size: 32px;
     }
-
     .title{
         font-weight:lighter;
         font-size: 28px;
-       
     }
-
     form{
      
         display: flex;
         flex-direction: column;
         gap: 20px;
-        
         input{
             width: 250px;
             padding:15px ;
@@ -42,12 +37,10 @@
                 color: rgb(175,175,175);
             }
         }
-
         img{
            
             margin: 0 3%;
         }
-       
         button{
             background-color: #000;
             border-radius: 10px;
@@ -56,7 +49,6 @@
             font-weight: bold;
             cursor: pointer;
         }
-
         label  {
             display: flex;
             align-items: center;
@@ -80,3 +72,33 @@
 }
 }
 
+.home{
+    background-color: rgb(12, 12, 12); 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    .container{
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 50%;
+        height: 80%;
+        display: flex;
+        overflow: hidden;
+    .sidebar{
+        flex: 1; 
+        background-color: #2b2b2b;
+    .navbar{
+        display: flex;
+        align-items: center;
+        background-color: #444444;
+        height: 60px;
+        padding:10px;
+        justify-content: space-between;
+    }
+    }
+    .chat{flex: 2;}
+    }
+}
