@@ -13,13 +13,12 @@ const Login = () => {
         const email = e.target[0].value;
         const password = e.target[1].value;
         try{
-           await signInWithEmailAndPassword(auth, email, password)
+           await signInWithEmailAndPassword(auth, email, password);
             navigate("/")
         }
         catch(err){
             setErr(true);
         }
-       
 
     };
     return (
